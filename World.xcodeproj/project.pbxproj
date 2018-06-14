@@ -15,6 +15,10 @@
 		04F28D6220D14E040023CBF7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F28D6120D14E040023CBF7 /* main.m */; };
 		04F28D6C20D14E040023CBF7 /* WorldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F28D6B20D14E040023CBF7 /* WorldTests.m */; };
 		04F28D7720D14E040023CBF7 /* WorldUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F28D7620D14E040023CBF7 /* WorldUITests.m */; };
+		04F28D8820D14E620023CBF7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04F28D8A20D14E620023CBF7 /* InfoPlist.strings */; };
+		04F28D8E20D1503D0023CBF7 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04F28D9020D1503D0023CBF7 /* Localizable.strings */; };
+		04F28D9520D1506B0023CBF7 /* HZLanguageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F28D9420D1506B0023CBF7 /* HZLanguageManager.m */; };
+		04F28D9820D1532E0023CBF7 /* SetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F28D9720D1532E0023CBF7 /* SetViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,16 @@
 		04F28D7220D14E040023CBF7 /* WorldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04F28D7620D14E040023CBF7 /* WorldUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WorldUITests.m; sourceTree = "<group>"; };
 		04F28D7820D14E040023CBF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04F28D8420D14E3F0023CBF7 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		04F28D8520D14E3F0023CBF7 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		04F28D8920D14E620023CBF7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		04F28D8B20D14E640023CBF7 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		04F28D8F20D1503D0023CBF7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		04F28D9120D150450023CBF7 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		04F28D9320D1506B0023CBF7 /* HZLanguageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZLanguageManager.h; sourceTree = "<group>"; };
+		04F28D9420D1506B0023CBF7 /* HZLanguageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZLanguageManager.m; sourceTree = "<group>"; };
+		04F28D9620D1532E0023CBF7 /* SetViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SetViewController.h; sourceTree = "<group>"; };
+		04F28D9720D1532E0023CBF7 /* SetViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SetViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +115,15 @@
 		04F28D5120D14E030023CBF7 /* World */ = {
 			isa = PBXGroup;
 			children = (
+				04F28D9220D1506B0023CBF7 /* HZLanguageManager */,
 				04F28D5220D14E030023CBF7 /* AppDelegate.h */,
 				04F28D5320D14E030023CBF7 /* AppDelegate.m */,
 				04F28D5520D14E030023CBF7 /* ViewController.h */,
 				04F28D5620D14E030023CBF7 /* ViewController.m */,
+				04F28D9620D1532E0023CBF7 /* SetViewController.h */,
+				04F28D9720D1532E0023CBF7 /* SetViewController.m */,
+				04F28D9020D1503D0023CBF7 /* Localizable.strings */,
+				04F28D8A20D14E620023CBF7 /* InfoPlist.strings */,
 				04F28D5820D14E030023CBF7 /* Main.storyboard */,
 				04F28D5B20D14E040023CBF7 /* Assets.xcassets */,
 				04F28D5D20D14E040023CBF7 /* LaunchScreen.storyboard */,
@@ -130,6 +149,15 @@
 				04F28D7820D14E040023CBF7 /* Info.plist */,
 			);
 			path = WorldUITests;
+			sourceTree = "<group>";
+		};
+		04F28D9220D1506B0023CBF7 /* HZLanguageManager */ = {
+			isa = PBXGroup;
+			children = (
+				04F28D9320D1506B0023CBF7 /* HZLanguageManager.h */,
+				04F28D9420D1506B0023CBF7 /* HZLanguageManager.m */,
+			);
+			path = HZLanguageManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -217,6 +245,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = 04F28D4620D14E030023CBF7;
 			productRefGroup = 04F28D5020D14E030023CBF7 /* Products */;
@@ -235,7 +264,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04F28D8E20D1503D0023CBF7 /* Localizable.strings in Resources */,
 				04F28D5F20D14E040023CBF7 /* LaunchScreen.storyboard in Resources */,
+				04F28D8820D14E620023CBF7 /* InfoPlist.strings in Resources */,
 				04F28D5C20D14E040023CBF7 /* Assets.xcassets in Resources */,
 				04F28D5A20D14E030023CBF7 /* Main.storyboard in Resources */,
 			);
@@ -265,6 +296,8 @@
 				04F28D5720D14E030023CBF7 /* ViewController.m in Sources */,
 				04F28D6220D14E040023CBF7 /* main.m in Sources */,
 				04F28D5420D14E030023CBF7 /* AppDelegate.m in Sources */,
+				04F28D9820D1532E0023CBF7 /* SetViewController.m in Sources */,
+				04F28D9520D1506B0023CBF7 /* HZLanguageManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,6 +337,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				04F28D5920D14E030023CBF7 /* Base */,
+				04F28D8420D14E3F0023CBF7 /* zh-Hans */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -312,8 +346,27 @@
 			isa = PBXVariantGroup;
 			children = (
 				04F28D5E20D14E040023CBF7 /* Base */,
+				04F28D8520D14E3F0023CBF7 /* zh-Hans */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		04F28D8A20D14E620023CBF7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04F28D8920D14E620023CBF7 /* en */,
+				04F28D8B20D14E640023CBF7 /* zh-Hans */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		04F28D9020D1503D0023CBF7 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04F28D8F20D1503D0023CBF7 /* en */,
+				04F28D9120D150450023CBF7 /* zh-Hans */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -323,6 +376,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -381,6 +435,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -436,6 +491,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B94C4GLS2Q;
 				INFOPLIST_FILE = World/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -453,6 +509,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B94C4GLS2Q;
 				INFOPLIST_FILE = World/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

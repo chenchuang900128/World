@@ -1,0 +1,12 @@
+/* 
+  Localizable.strings
+  World
+
+  Created by 陈创 on 2018/6/13.
+  Copyright © 2018年 陈创. All rights reserved.
+*/
+
+
+"hello,world!"="你好,世界!";
+"Next"="下一步";
+"Follow the system"="跟随系统";
